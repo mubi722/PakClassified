@@ -1,0 +1,87 @@
+.edit-ad-modal-dialog {
+  max-width: 720px;
+}
+
+.edit-ad-modal .modal-content {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.edit-ad-modal .modal-header {
+  border-bottom: none;
+  padding: 1rem 1.2rem 0.85rem;
+}
+
+.edit-ad-modal .modal-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #117a60;
+}
+
+.edit-ad-modal .modal-body {
+  padding: 0 1.2rem 1rem;
+}
+
+.edit-ad-form .form-label {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.edit-ad-form .form-control,
+.edit-ad-form .form-select {
+  border-radius: 12px;
+  border: 1px solid #ced4da;
+  min-height: 44px;
+}
+
+.edit-ad-form .form-control:focus,
+.edit-ad-form .form-select:focus {
+  box-shadow: none;
+  border-color: #86b7fe;
+}
+
+.edit-ad-form textarea.form-control {
+  resize: vertical;
+}
+
+.edit-ad-form .custom-select {
+  background: #0fbd6d;
+  color: #fff;
+  border: none;
+}
+
+.edit-ad-form .custom-select option {
+  color: #212529;
+}
+
+.edit-ad-image-preview {
+  width: 100%;
+  max-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 12px;
+}
+
+.edit-ad-image-preview img {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.edit-ad-form .form-text {
+  font-size: 0.82rem;
+}
+
+.edit-ad-modal .modal-footer {
+  border-top: none;
+  padding: 0.75rem 1.2rem 1rem;
+}
+
+.edit-ad-modal .btn {
+  border-radius: 10px;
+  min-width: 110px;
+}

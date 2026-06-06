@@ -1,0 +1,63 @@
+.email-verification-page {
+  background: #f5f8fb;
+  min-height: 100vh;
+}
+
+.email-verification-hero {
+  position: relative;
+  height: 200px;
+  background-image: url('/images/bannerpic.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.email-verification-hero-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.email-verification-title {
+  border-left: 6px solid #00a86b;
+  padding-left: 1rem;
+}
+
+.email-verification-title h2 {
+  margin: 0;
+}
+
+.verify-otp-section {
+  padding-bottom: 80px;
+}
+
+.otp-input-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.otp-input {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #00a86b;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0;
+  min-width: 50px;
+}
+
+@media (max-width: 576px) {
+  .email-verification-hero {
+    height: 180px;
+  }
+
+  .otp-input {
+    width: 44px;
+    height: 44px;
+    font-size: 1.1rem;
+  }
+}

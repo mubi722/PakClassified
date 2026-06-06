@@ -1,0 +1,73 @@
+.edit-ad-modal-dialog {
+  max-width: 520px;
+  margin: 1.5rem auto;
+}
+
+.edit-ad-modal .modal-content {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.edit-ad-modal .modal-header {
+  border-bottom: none;
+  padding: 1.25rem 1.5rem 0.75rem;
+}
+
+.edit-ad-modal .edit-ad-modal-title {
+  color: #16a34a;
+  font-weight: 700;
+  font-size: 1.35rem;
+}
+
+.edit-ad-modal .modal-body {
+  padding: 0 1.5rem 1.25rem;
+}
+
+.edit-ad-modal .form-label {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: #1f2937;
+}
+
+.edit-ad-modal .form-control,
+.edit-ad-modal .form-select {
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  box-shadow: none;
+  min-height: 44px;
+}
+
+.edit-ad-modal .form-control:focus,
+.edit-ad-modal .form-select:focus {
+  border-color: #86b7fe;
+  box-shadow: none;
+}
+
+.edit-ad-modal .form-select.select-pill {
+  background-color: #16a34a;
+  color: #fff;
+  border-color: #16a34a;
+}
+
+.edit-ad-modal .form-select.select-pill option {
+  color: #111827;
+}
+
+.edit-ad-modal .modal-footer {
+  border-top: none;
+  padding: 0 1.5rem 1.25rem;
+}
+
+.edit-ad-modal .btn-primary {
+  min-height: 44px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.edit-ad-modal .btn-secondary {
+  min-height: 44px;
+  border-radius: 10px;
+  border: none;
+  background-color: #6b7280;
+}

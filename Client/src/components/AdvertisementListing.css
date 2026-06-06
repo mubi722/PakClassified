@@ -1,0 +1,113 @@
+.ad-listing-hero {
+  position: relative;
+  min-height: 180px;
+  background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.ad-listing-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.65);
+}
+
+.ad-listing-hero-title {
+  position: relative;
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding-left: 0.75rem;
+  border-left: 6px solid #16a34a;
+}
+
+.ad-category-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: #15803d;
+}
+
+.ad-card {
+  background: #ffffff;
+  border: 1px solid rgba(22, 163, 74, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.06);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ad-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.12);
+}
+
+.ad-image {
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.ad-card:hover .ad-image {
+  transform: scale(1.03);
+}
+
+.ad-card-body {
+  padding: 1.5rem;
+}
+
+.ad-card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  color: #166534;
+}
+
+.ad-card-description {
+  margin-bottom: 1rem;
+  color: #475569;
+  line-height: 1.65;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .ad-listing-hero {
+    min-height: 140px;
+  }
+
+  .ad-listing-hero-title {
+    font-size: 1.8rem;
+  }
+
+  .ad-card {
+    border-radius: 14px;
+  }
+
+  .ad-image {
+    height: 160px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ad-card-body {
+    padding: 1rem;
+  }
+
+  .ad-card-title {
+    font-size: 1.1rem;
+  }
+
+  .ad-card-description {
+    font-size: 0.95rem;
+  }
+}
+
+
+

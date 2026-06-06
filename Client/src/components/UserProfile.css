@@ -1,0 +1,96 @@
+/* Minimal styling - Bootstrap handles most */
+
+/* Green Button Override */
+.btn-success {
+  background-color: #16a34a;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #15803d;
+}
+
+/* Hover effect */
+.user-dashboard .card:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease;
+}
+
+/* Reduce advertisement card size */
+.user-dashboard .card .card-body {
+  padding: 1rem;
+}
+
+.user-dashboard .card h5 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.user-dashboard .card p {
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.user-dashboard .card .d-flex {
+  gap: 0.5rem;
+}
+
+/* Header styling */
+.dashboard-header {
+  background-image: url(/images/bannerpic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.header-accent-bar {
+  width: 6px;
+  height: 40px;
+  background-color: #16a34a;
+}
+
+/* Profile section */
+.profile-image {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-color: #16a34a !important;
+}
+
+.profile-placeholder {
+  width: 110px;
+  height: 110px;
+  border-color: #16a34a;
+}
+
+.profile-icon {
+  font-size: 2rem;
+  color: #16a34a;
+}
+
+/* Advertisements section */
+.ads-title {
+  border-color: #16a34a;
+  color: #16a34a;
+}
+
+.ad-card-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.ad-card-placeholder {
+  width: 100%;
+  height: 160px;
+  border-radius: 20px;
+  background: #f8fafc;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+

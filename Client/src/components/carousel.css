@@ -1,0 +1,35 @@
+.carosule-img {
+  height: 400px;   
+  object-fit: cover;
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+
+
+.overlay-text {
+  position: absolute;
+  top: 28%;
+  left: 12%;
+  color: white;
+  max-width: 480px;
+  border-left: 4px solid #198754;
+  padding-left: 20px;
+}
+
+.overlay-text h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+.overlay-text h2 {
+  font-size: 26px;
+  margin-top: 5px;
+}
+
+.overlay-text p {
+  margin-top: 15px;
+  font-size: 18px;
+}

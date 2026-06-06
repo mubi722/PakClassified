@@ -1,0 +1,57 @@
+.edit-user-modal-dialog {
+  max-width: 300px;
+  margin: 0.75rem auto;
+}
+
+.edit-user-modal .modal-content {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.edit-user-modal .modal-header {
+  border-bottom: none;
+  padding: 0.75rem 0.9rem 0.5rem;
+}
+
+.edit-user-modal .modal-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.edit-user-modal .modal-body {
+  padding: 0 0.9rem 0.75rem;
+}
+
+.edit-user-modal .edit-user-form .form-label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  font-size: 0.92rem;
+}
+
+.edit-user-modal .edit-user-form .form-group {
+  margin-bottom: 0.65rem;
+}
+
+.edit-user-modal .edit-user-form .form-control {
+  border-radius: 10px;
+  padding: 8px 10px;
+  background: #f8f9fa;
+  border: 1px solid #d7d7d7;
+  height: 38px;
+}
+
+.edit-user-modal .edit-user-form .form-control:focus {
+  box-shadow: none;
+  border-color: #86b7fe;
+}
+
+.edit-user-modal .modal-footer {
+  border-top: none;
+  padding: 0 0.9rem 0.9rem;
+}
+
+.edit-user-modal .modal-footer .btn {
+  border-radius: 10px;
+  min-height: 40px;
+  font-weight: 600;
+}

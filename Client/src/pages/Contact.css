@@ -1,0 +1,25 @@
+/* Contact.css */
+
+.contact-banner {
+  background-image: url('/images/bannerpic.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.contact-overlay {
+  background: rgba(0,0,0,0.5);
+}
+
+.contact-title-border {
+  border-left: 6px solid #00a86b;
+}
+
+.contact-info-card {
+  background-color: #e9f5f1;
+}
+
+.contact-send-btn {
+  background-color: #00a86b;
+  color: white;
+}
